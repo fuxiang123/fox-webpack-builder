@@ -1,5 +1,5 @@
 {
-  "name": "builder-webpack",
+  "name": "fox-webpack-builder",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,17 +12,14 @@
   "license": "ISC",
   "devDependencies": {
     "assert": "^2.0.0",
-    "babel-eslint": "^10.0.1",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.22.1",
     "glob-all": "^3.1.0",
-    "@istanbuljs/nyc-config-babel": "^3.0.0",
-    "babel-plugin-istanbul": "^6.0.0",
-    "nyc": "^15.1.0",
     "mocha": "^6.1.4",
-    "rimraf": "^2.6.3",
-    "@babel/register": "^7.13.8"
+    "nyc": "^15.1.0",
+    "rimraf": "^2.6.3"
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
