@@ -16,4 +16,5 @@ install:
   - cd ../../../
 
 scripts:
+  - npm eslint
   - npm test

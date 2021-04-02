@@ -1,6 +1,4 @@
 {
   "all": false,
-  "check-coverage": true,
-  "includes": "src/*.js",
-  "lines": 80
+  "check-coverage": true
 }
